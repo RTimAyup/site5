@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--Favicons-->
+    <link rel="icon" type="image/png" href="img/Logo.png">
+
+    <!--<link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">-->
+
+    <!--Icons-->
+    <script src="https://kit.fontawesome.com/414b3d62fe.js" crossorigin="anonymous"></script>
+
+    <!--SEO-->
+    <meta name="description" content="Описание страницы" />
+    <meta name="keywords" content="создание сайтов, верстка сайтов" />
+
+    <title>Creative</title>
+
+    <!-- Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--Sprite-->
+    <svg style="display: none">
+        <symbol id="feature-two" viewBox="0 0 512 512">
+
+            <g>
+                <g>
+                    <path d="M141.367,116.518c-7.384-7.39-19.364-7.39-26.748,0c-27.416,27.416-40.891,65.608-36.975,104.79
+                        c0.977,9.761,9.2,17.037,18.803,17.037c0.631,0,1.267-0.032,1.898-0.095c10.398-1.04,17.983-10.316,16.943-20.707
+                        c-2.787-27.845,6.722-54.92,26.079-74.278C148.757,135.882,148.757,123.901,141.367,116.518z" />
+                </g>
+            </g>
+            <g>
+                <g>
+                    <path d="M216.276,0C97.021,0,0,97.021,0,216.276s97.021,216.276,216.276,216.276s216.276-97.021,216.276-216.276
+                        S335.53,0,216.276,0z M216.276,394.719c-98.396,0-178.443-80.047-178.443-178.443S117.88,37.833,216.276,37.833
+                        c98.39,0,178.443,80.047,178.443,178.443S314.672,394.719,216.276,394.719z" />
+                </g>
+            </g>
+            <g>
+                <g>
+                    <path d="M506.458,479.71L368.999,342.252c-7.39-7.39-19.358-7.39-26.748,0c-7.39,7.384-7.39,19.364,0,26.748L479.71,506.458
+                        c3.695,3.695,8.531,5.542,13.374,5.542c4.843,0,9.679-1.847,13.374-5.542C513.847,499.074,513.847,487.094,506.458,479.71z" />
+                </g>
+            </g>
+
+        </symbol>
+    </svg>
+
+</head>
+<body>
+
+
+<!-- Header -->
+<header class="header" id="header">
+    <div class="container">
+
+        <div class="header__inner">
+            <div class="header__logo">
+                <img src="img/Logo.png" alt="">
+            </div>
+
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#" data-scroll="#intro">Home</a>
+                <a class="nav__link" href="#" data-scroll="#pages">Pages</a>
+                <a class="nav__link" href="#" data-scroll="#features">Features</a>
+                <a class="nav__link" href="#" data-scroll="#extensions">Extensions</a>
+                <a class="nav__link" href="#" data-scroll="#tutorials">Tutorials</a>
+                <a class="nav__link" href="#" data-scroll="#contacts">Contacts us</a>
+                <div class="nav__social">
+                    <a class="nav__link social" href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="nav__link social" href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="nav__link social" href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="nav__link social" href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </nav>
+            <button class="burger" type="button" id="navToggle">
+                <span class="burger__item">Menu</span>
+            </button>
+        </div>
+    </div> <!--container-->
+</header>
+
+
+<!--Intro-->
+<div class="intro" id="intro">
+    <div class="container">
+
+        <div class="intro__inner">
+            <h1 class="intro__title">CREATIVES</h1>
+            <div class="intro__subtitle">
+                <a class="intro__subtitle link" href="#">POWER BY PSDFREEBIES.COM</a>
+            </div>
+            <div class="intro__down">
+                <div>Scroll Down</div>
+                <a class="intro__arrow" href="#" data-scroll="#down">
+                    <i class="fas fa-arrow-down"></i>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!--Down-->
+<section class="section down" id="down">
+    <div class="container">
+
+        <div class="section__header">
+                <h2 class="section__title">WE ARE AN AWESOME AGENCY</h2>
+                <div class="section__letter">W</div>
+        </div>
+
+        <div class="down__inner" id="down__inner">
+            <div class="down__item" id="down__item">
+                <div class="down__icon">
+                    <svg class="features__icon">
+                        <use xlink: href="#feature-two"></use>
+                    </svg>
+                </div>
+                <h4 class="down__title" id="down__title">FEATURE ONE</h4>
+                <div class="down__text">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.Donec id elit non mi porta.</div>
+            </div>
+            <div class="down__item" id="down__item">
+                <div class="down__icon">
+                    <svg class="features__icon">
+                        <use xlink: href="#feature-two"></use>
+                    </svg>
+                </div>
+                <h4 class="down__title">FEATURE TWO</h4>
+                <div class="down__text">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.Donec id elit non mi porta.</div>
+            </div>
+            <div class="down__item" id="down__item__two">
+                <div class="down__icon">
+                    <i class="far fa-comment-alt"></i>
+                </div>
+                <h4 class="down__title">FEATURE THREE</h4>
+                <div class="down__text">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.Donec id elit non mi porta.</div>
+            </div>
+            <div class="down__item" id="down__item__two">
+                <div class="down__icon">
+                    <i class="far fa-comment-alt"></i>
+                </div>
+                <h4 class="down__title">FEATURE FOUR</h4>
+                <div class="down__text">Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.Donec id elit non mi porta.</div>
+            </div>
+        </div><!--down__inner-->
+
+    </div><!--container-->
+</section>
+
+
+<!--Pages-->
+<section class="pages" id="pages">
+
+    <div class="pages__inner" id="pages__inner">
+        <div class="pages__item" id="pages__item">
+            <div class="pages__info" id="pages__info">
+                <div class="pages__data"><pre>Jan 4, 2016   |   In Culture</pre></div>
+                <h1 class="pages__title">AKITA INU DOG</h1>
+                <div class="pages__text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.<br>
+                <br>
+                Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetu</div>
+            </div>
+        </div>
+        <img class="pages__image" src="img/pages/pages1.png" alt="">
+    </div><!--pages__inner-->
+
+    <div class="pages__inner" id="pages__inner__two">
+        <img class="pages__image" src="img/pages/pages2.png" alt="">
+        <div class="pages__item left" id="pages__item__two">
+            <div class="pages__info left">
+                <div class="pages__data left"><pre>Jan 4, 2016   |   In Culture</pre></div>
+                <h1 class="pages__title left">AKITA INU DOG</h1>
+                <div class="pages__text left">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.<br>
+                <br>
+                Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur</div>
+            </div>
+        </div>
+    </div><!--pages__inner-->
+
+</section>
+
+
+<!--Features-->
+<div class="section features" id="features">
+    <div class="container">
+
+        <div class="section__header features-tutorials">
+            <div class="let__blog">
+                <h2 class="section__title features-tutorials">LET'S BLOG</h2>
+                <div class="section__letter features-tutorials">B</div>
+            </div>
+            <div class="section__text features-tutorials">We love clean design and advanced digital solutions.</div>
+        </div>
+
+        <div class="features__inner" id="features__inner">
+            <div class="features__item" id="features__item">
+                <img class="features__image" src="img/features/1.png" alt="">
+                <div class="features__title">FRESH SUMMER CAMPAIGN</div>
+                <div class="features__text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+            </div>
+
+            <div class="features__item" id="features__item__two">
+                <img class="features__image" src="img/features/2.png" alt="">
+                <div class="features__title">FRESH SUMMER CAMPAIGN</div>
+                <div class="features__text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+            </div>
+
+            <div class="features__item" id="features__item">
+                <img class="features__image" src="img/features/3.png" alt="">
+                <div class="features__title">FRESH SUMMER CAMPAIGN</div>
+                <div class="features__text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+            </div>
+
+            <div class="features__item" id="features__item__two">
+                <img class="features__image" src="img/features/4.png" alt="">
+                <div class="features__title">FRESH SUMMER CAMPAIGN</div>
+                <div class="features__text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+            </div>
+        </div><!--features__inner-->
+    </div><!--container-->
+</div><!--section features-->
+
+
+<!--Note-->
+<div class="note">
+    <div class="container">
+
+        <div class="note__inner">
+            <div class="note__item">
+                <img class="note__icon" src="img/note/1.png" alt="">
+                <div class="note__text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+            </div>
+
+            <div class="note__item">
+                <img class="note__icon" src="img/note/2.png" alt="">
+                <div class="note__text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+            </div>
+        </div>
+
+    </div>
+</div><!--note-->
+
+
+<!--Extensions-->
+<div class="extensions" id="extensions">
+    <div class="container">
+
+        <div class="extensions__inner">
+            <div class="content">
+                <h3 class="content__title">AKITA INU DOG</h3>
+                <div class="content__text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</div>
+                <a class="btn one" href="#">FULLY RESPONSIVE DESIGN</a>
+                <a class="btn two" href="#">HIGH QUALITY CODE</a>
+                <a class="btn three" href="#">DIFFERENT HEADERS & LAYOUT</a>
+            </div>
+            <div class="phone">
+                <img src="img/extensions/phone.png" alt="">
+            </div>
+        </div>
+
+    </div>
+</div><!--extensions-->
+
+
+<!--Tutorials-->
+<div class="section tutorials" id="tutorials">
+    <div class="container">
+
+        <div class="section__header features-tutorials">
+            <div class="let__blog">
+                <h2 class="section__title features-tutorials">OUR TEAM</h2>
+                <div class="section__letter features-tutorials">T</div>
+            </div>
+            <div class="section__text features-tutorials"> sales long tail influencer pitch release niche market.
+            </div>
+        </div>
+
+        <div class="tutorials__inner">
+            <div class="tutorials__phote">
+                <img src="img/tutorials/Member1.png" alt="">
+            </div>
+            <div class="tutorials__phote">
+                <img src="img/tutorials/Member2.png" alt="">
+            </div>
+            <div class="tutorials__phote">
+                <img src="img/tutorials/Member3.png" alt="">
+            </div>
+            <div class="tutorials__phote">
+                <img src="img/tutorials/Member4.png" alt="">
+            </div>
+        </div>
+
+    </div>
+</div><!--section tutorials-->
+
+
+<!--Contacts-->
+<div class="section contacts" id="contacts">
+    <div class="container">
+
+        <div class="section__header">
+            <div class="let__blog">
+                <h2 class="section__title">WE’D LOVE TO HEAR ABOUT YOUR PROJECT.</h2>
+                <div class="section__letter">C</div>
+            </div>
+        </div>
+
+        <form class="form" action="/" method="post">
+            <div class="form__group">
+                <input class="input" type="text" name="name" placeholder="Name">
+                <input class="input" type="email" name="email" placeholder="Email">
+                <input class="input" type="tel" name="tel" placeholder="Phone">
+            </div>
+            <div class="form__group">
+                <textarea class="textarea" name="text" placeholder="Message"></textarea>
+            </div>
+            <div class="form__group">
+                <button class="btn btn-submit" type="submit">SUBMIT</button>
+            </div>
+        </form>
+
+    </div>
+</div><!--section contacts-->
+
+
+<!--Map-->
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d294811.5171920766!2d55.74093083846379!3d54.74102200411254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43d93a259216bce1%3A0xaceec0921eda92cc!2z0KPRhNCwLCDQoNC10YHQvy4g0JHQsNGI0LrQvtGA0YLQvtGB0YLQsNC9!5e0!3m2!1sru!2sru!4v1606545362576!5m2!1sru!2sru" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+
+<!--Footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="copyright__block">
+            <div class="copyright__text">© 2016 PSDfreebies.com – All Right Reserved</div>
+
+            <div class="copyright__text">Disign by:<span style="color:#e84545;">&#128029;&#10084;&hearts;</span><span>PSDFreebies.com</span></div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="app.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
